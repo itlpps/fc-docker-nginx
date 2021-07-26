@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BRnode">
+
+<body class="container">
+  <main>
+    <div>
+      <h1>Full Cycle Rocks!</h1>
+      <h2>Lista de pessoas</h2>
+      <h3>F5 para ver nova pessoa</h3>
+      <ul>
+        <% people.forEach(function(p, index) { %>
+        <li><%= p.id %> - <%= p.name %></li>
+        <% }); %>
+      </ul>
+    </div>
+  </main>
+</body>
